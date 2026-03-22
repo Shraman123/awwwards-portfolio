@@ -1,26 +1,36 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #0b1326;
+    --foreground: #dae2fd;
   }
 }
 
 body {
-  background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--background);
+  overflow-x: hidden;
+}
+
+/* Glassmorphism Utilities */
+.glass-card {
+  @apply bg-[#31394d]/40 backdrop-blur-xl border border-[#afc6ff]/10;
+}
+
+/* Hide scrollbar for Lenis */
+html.lenis, html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
 }
