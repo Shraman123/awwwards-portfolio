@@ -59,7 +59,7 @@ export default function CustomCursor() {
   return (
     <motion.div
       className="fixed top-0 left-0 w-8 h-8 rounded-full border border-white/30 pointer-events-none z-[9999] bg-white/20 backdrop-blur-sm hidden md:block"
-      variants={variants}
+      variants={variants as any}
       animate={isHovered ? "hover" : "default"}
     />
   );

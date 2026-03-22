@@ -327,7 +327,7 @@ export default function Home() {
             Building <span className="italic font-light">100 Cr+</span> Impact Startups.
           </h2>
           <p className="text-xl md:text-2xl font-medium opacity-80 leading-relaxed max-w-2xl mx-auto mix-blend-difference text-white/50">
-            I don't just write code; I architect scale. My vision is to forge high-growth AI products that solve fundamental problems, drive massive innovation, and redefine industries on a global stage.
+            I don&apos;t just write code; I architect scale. My vision is to forge high-growth AI products that solve fundamental problems, drive massive innovation, and redefine industries on a global stage.
           </p>
         </div>
       </section>
@@ -339,10 +339,10 @@ export default function Home() {
           <div className="w-full md:w-1/2 fade-up">
             <span className="text-[#afc6ff] font-mono text-sm uppercase tracking-widest block mb-6">06. Connect</span>
             <h2 className="text-[10vw] md:text-[6vw] font-bold leading-none mb-6 text-white magnetic w-max">
-              Let's<br/>Talk.
+              Let&apos;s<br/>Talk.
             </h2>
             <p className="text-lg opacity-60 mb-12 max-w-md">
-              Whether you're a VC, a founder looking for a technical partner, or just want to chat about AI & startups—drop me a line.
+              Whether you&apos;re a VC, a founder looking for a technical partner, or just want to chat about AI & startups—drop me a line.
             </p>
             <div className="flex flex-col gap-6">
               <a href="mailto:hazrashraman875@gmail.com" className="magnetic flex items-center gap-4 text-xl hover:text-[#afc6ff] transition-colors w-max">
